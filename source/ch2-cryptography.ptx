@@ -830,9 +830,39 @@ $y$j9T$oR2ZofMTuH3dpEGbw6c/y.$TwfvHgCl4sIp0b28YTepJ3YVvl/3UyWKeLCmDV1tAd9</pre>
 							Don’t forget to use the actual password you cracked and put the hash info in single quotes.
 						</p>
 					</note>
+
+					 <exercise label="summary1-2">
+        <statement>
+
+        <p>The output of the
+						<c>crypt</c> command exactly matches the hash in <c>/etc/shadow</c></p>.
+
+        </statement>
+<choices>
+
+
+            <choice correct ="yes">
+                <statement>
+                    <p>True</p>
+                </statement>
+                <feedback>
+                    <p> Right! They should be identical.
+                    </p>
+                </feedback>
+            </choice>
+			<choice>
+                <statement>
+                    <p>False</p>
+                </statement>
+                <feedback>
+                    <p> Humm... They should be identical. Try again.</p>
+                </feedback>
+            </choice>
+</choices>
+    </exercise>
 					
-                    <question><p>Submit a screenshot with your lab showing that the output of the
-						<c>crypt</c> command matches the hash in <c>/etc/shadow</c></p></question>.
+                    <note><p>Your instructor might ask you to submit a screenshot with your lab showing that the output of the
+						<c>crypt</c> command matches the hash in <c>/etc/shadow</c></p></note>.
 						<note>
 						<p>
 							If you chose to use a Github codespace, don't forget to stop or delete the codespace by clicking the "Stop" button or the "Delete" button in the Codespaces tab of your repository.
