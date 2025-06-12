@@ -8,7 +8,7 @@
   <p>
   </p>
   <p>
-      The following is intended to be useful in better understanding bash shell commands as well as with commands that run programs used in this book that run in the bash shell.
+      The following is intended to be useful in better understanding bash shell commands as well as understanding commands that run programs in the bash shell and which are used in this book.
       </p>
       </paragraphs>
 <paragraphs>
@@ -553,7 +553,7 @@ The <term>touch</term> command is commonly used for file creation. Its intended 
                 </li>
                 <li>
                   <p>
-                  e.g. <c>srp1(packet)</c> sends a packet and receives one response at Layer 2.
+                  e.g. <c>srp1(packet)</c> stands for (Send Response Packet 1) sends a packet and receives only 1 response at Layer 2.
                   </p>
                 </li>
               </ul>
