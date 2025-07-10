@@ -696,45 +696,53 @@
 					<title>The OSI Model and Protocol Layering</title>
 
 					<introduction>
-					<p>Now that we’ve explored key protocols used across the TCP/IP model, it’s helpful to examine the OSI (Open Systems Interconnection) model, which provides a conceptual framework for understanding how data moves across a network. The OSI model organizes communication into seven distinct layers, each with a specific function. Although modern systems commonly use the four-layer TCP/IP model, the OSI model offers a more detailed structure that helps clarify where different protocols operate and where vulnerabilities may occur.</p>
+					<p><idx>OSI</idx><idx>Open Systems Interconnection</idx></p>
+					<p>Now that we’ve explored key protocols used across the TCP/IP model, it’s helpful to examine the <term>Open Systems Interconnection</term> (<term>OSI model</term>), which provides a conceptual framework for understanding how data moves across a network. The OSI model organizes communication into seven distinct layers, each with a specific function. Although modern systems commonly use the four-layer TCP/IP model, the OSI model offers a more detailed structure that helps clarify where different protocols operate and where vulnerabilities may occur.</p>
 					</introduction>
 					<p>The OSI model breaks down network communication into the following layers:</p>
 					<p>
 						<ol>
 							<li>
 								<p>
-									Physical – Transfers raw bits over a physical medium (e.g., cables, radio waves).
+								<idx>physical</idx>
+									<term>Physical</term>– Transfers raw bits over a physical medium (e.g., cables, radio waves).
 								</p>
 							</li>
 							<li>
 								<p>
-									Data Link – Provides node-to-node data transfer and handles error correction from the physical layer.
+								<idx>data link</idx>
+									<term>Data Link</term>– Provides node-to-node data transfer and handles error correction from the physical layer.
 								</p>
 							</li>
 							<li>
 								<p>
-									Network – Manages data routing, addressing, and packet forwarding across networks.
+								<idx>network</idx>
+									<term>Network</term>– Manages data routing, addressing, and packet forwarding across networks.
 								</p>
 							</li>
 							<li>
 								<p>
-									Transport – Ensures complete data transfer with error recovery and flow control.
+								<idx>transport</idx>
+									<term>Transport</term>– Ensures complete data transfer with error recovery and flow control.
 								</p>
 							</li>
 							<li>
 								<p>
-									Session – Manages sessions between applications, maintaining state and synchronization.
+								<idx>session</idx>
+									<term>Session</term>– Manages sessions between applications, maintaining state and synchronization.
 								</p>
 							</li>
 							<li>
 								<p>
-									Presentation – Transforms data into a format suitable for the application layer, handling encryption and
+								<idx>presentation</idx>
+									<term>Presentation</term>– Transforms data into a format suitable for the application layer, handling encryption and
 									compression.
 								</p>
 							</li>
 							<li>
 								<p>
-									Application – Provides network services to end-user applications, such as web browsers and email clients.
+								<idx>application</idx>
+									<term>Application</term>– Provides network services to end-user applications, such as web browsers and email clients.
 								</p>
 							</li>
 						</ol>
